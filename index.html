@@ -2,10 +2,141 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Mi sitio con GitHub Pages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carlos Sanz – Ingeniero Electrónico</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f0f0f;
+      color: #e5e5e5;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: linear-gradient(135deg, #1a1a1a, #111);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-size: 1.3rem;
+      color: #c7c7c7;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #4a90e2;
+      padding-left: 0.8rem;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .skills-list li {
+      background: #222;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      margin: 0.3rem;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #999;
+      border-top: 1px solid #333;
+      margin-top: 3rem;
+    }
+
+    .links a {
+      color: #4a90e2;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>¡Hola mundo!</h1>
-  <p>Este sitio está alojado en GitHub Pages con dominio de Hostinger.</p>
+  <header>
+    <h1>Carlos Sanz</h1>
+    <p class="subtitle">Ingeniero Electrónico • Nacido en 1999</p>
+  </header>
+
+  <section>
+    <h2>Educación</h2>
+    <div class="card">
+      <h3>Ingeniería Electrónica Industrial y Automática</h3>
+      <p><em>Universidad de La Rioja (2019 – 2025)</em></p>
+    </div>
+    <div class="card">
+      <h3>Máster en Sistemas Electrónicos Avanzados</h3>
+      <p><em>Universidad del País Vasco (UPV/EHU) (2026)</em></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experiencia Profesional</h2>
+    <div class="card">
+      <h3>Ingeniero de Datos</h3>
+      <p><em>Elliot Cloud</em></p>
+    </div>
+    <div class="card">
+      <h3>Ingeniero de Soporte</h3>
+      <p><em>System-On-Chip Engineering (SoC-e)</em></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tecnologías</h2>
+    <div class="card">
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>VHDL</li>
+        <li>C / C++</li>
+        <li>Networking</li>
+        <li>IoT</li>
+        <li>SolidWorks</li>
+        <li>LaTeX</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Enlaces</h2>
+    <div class="card links">
+      <a href="https://www.linkedin.com/in/carlossanzvillaverde/">LinkedIn</a>
+      <a href="https://github.com/carlosanzv">GitHub</a>
+      <a href="casanzvi@gmail.com">Email</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Carlos Sanz — Ingeniería Electrónica
+  </footer>
 </body>
 </html>
